@@ -112,7 +112,7 @@ Follow these steps to run the game locally:
   ```
 
 ## How to Play 🕹️
-`. Open the game in your browser.
+1. Open the game in your browser.
 2. Select a word category.
 3. Guess the hidden word one letter at a time.
 4. For each wrong guess, a part of the stick figure is drawn.
