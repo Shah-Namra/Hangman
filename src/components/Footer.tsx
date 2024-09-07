@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white py-4 flex flex-col items-center">
       <div className="flex items-center mb-2">
         <img
-          src="path/to/logo.png" // Replace with your logo path
+          src="path/to/logo.png" 
           alt="Logo"
           className="w-12 h-12 mr-3"
         />
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
           className="hover:text-gray-300 transition duration-300"
         >
           <img
-            src="path/to/github-icon.png" // Replace with your GitHub icon path
+            src="path/to/github-icon.png" 
             alt="GitHub"
             className="w-8 h-8"
           />
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           className="hover:text-gray-300 transition duration-300"
         >
           <img
-            src="path/to/twitter-icon.png" // Replace with your Twitter icon path
+            src="path/to/twitter-icon.png" 
             alt="Twitter"
             className="w-8 h-8"
           />
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           className="hover:text-gray-300 transition duration-300"
         >
           <img
-            src="path/to/linkedin-icon.png" // Replace with your LinkedIn icon path
+            src="path/to/linkedin-icon.png" 
             alt="LinkedIn"
             className="w-8 h-8"
           />

@@ -5,7 +5,7 @@ const Header: React.FC = () => (
   <nav className="flex justify-between items-center w-full p-4 bg-gray-800 text-white rounded-lg">
     <Link to="/" className="text-white no-underline">
       <img
-        src="path/to/logo.png" // Replace with your logo path
+        src="path/to/logo.png" 
         alt="Logo"
         className="h-10 w-auto"
       />

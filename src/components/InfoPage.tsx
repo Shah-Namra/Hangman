@@ -1,4 +1,3 @@
-// src/InfoPage.tsx
 
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -32,13 +31,13 @@ const InfoPage: React.FC = () => {
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">Follow Me</h2>
           <div className="flex justify-center space-x-6">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition-colors">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition-colors">
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition-colors">
+            <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition-colors">
               LinkedIn
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition-colors">
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition-colors">
               Twitter
             </a>
           </div>

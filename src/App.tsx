@@ -378,7 +378,7 @@ import HangmanDrawing from './components/HangmanDrawing';
 import HangmanWord from './components/HangmanWord';
 import KeyWord from './components/Keyboard';
 import AddWordForm from './components/AddWordForm';
-import LandingPage from './components/LandingPage'; // Import LandingPage
+import LandingPage from './components/LandingPage'; 
 import words from './wordsList.json';
 import InfoPage from './components/InfoPage';
 import Statistics from './components/Stats';
@@ -445,7 +445,7 @@ const App: React.FC = () => {
           <nav className="flex justify-between items-center p-4 md:px-8 lg:px-16">
             <Link to="/" className="flex items-center">
               <img
-                src="path/to/logo.png" // Replace with your logo path
+                src="path/to/logo.png" 
                 alt="Logo"
                 className="h-10 w-auto"
               />
@@ -471,7 +471,7 @@ const App: React.FC = () => {
         <main className="flex-grow p-4 md:p-8">
           <div className="w-full md:w-1/3 mx-auto bg-white p-6 rounded-lg shadow-lg">
             <Routes>
-              <Route path="/" element={<LandingPage />} /> {/* Landing Page */}
+              <Route path="/" element={<LandingPage />} /> 
               <Route
                 path="/play"
                 element={
