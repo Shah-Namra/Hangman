@@ -12,7 +12,7 @@ function getWord(wordList: string[]) {
 const Game: React.FC = () => {
   const [wordToGuess, setWordToGuess] = useState(() => getWord(words));
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
-  const [wordList, setWordList] = useState(words);
+  const [wordList] = useState(words);
 
   const incorrectLetters = guessedLetters.filter(
     (letter) => !wordToGuess.includes(letter)
@@ -49,10 +49,10 @@ const Game: React.FC = () => {
     };
   }, [addGuessedLetter, wordList]);
 
-  const handleNewGame = () => {
-    setGuessedLetters([]);
-    setWordToGuess(getWord(wordList));
-  };
+  //const handleNewGame = () => {
+  //  setGuessedLetters([]);
+  //  setWordToGuess(getWord(wordList));
+  //};
 
   return (
     <div className="flex flex-col items-center">
