@@ -90,10 +90,10 @@ Welcome to the **Hangman** game project! This is a fun, interactive Hangman game
 
 Follow these steps to run the game locally:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Shah-Namra/Hangman.git
-   ```
+1. **Clone the repository**
+  ```bash
+  git clone https://github.com/Shah-Namra/Hangman.git
+  ```
 2. **Navigate to the project directory:**
   ```
   cd Hangman
@@ -101,5 +101,28 @@ Follow these steps to run the game locally:
 3.  **Install necessary dependencies:**
   ```
   npm install
-```
-4. ``` npm install react-tsparticles ```
+  ```
+4. **Install additional library (for particle animations):**
+  ```
+  npm install react-tsparticles
+  ```
+5. **Run the app:**
+  ```
+  npm start
+  ```
+
+## How to Play 🕹️
+`. Open the game in your browser.
+2. Select a word category.
+3. Guess the hidden word one letter at a time.
+4. For each wrong guess, a part of the stick figure is drawn.
+5. Win by guessing the word before the entire stick figure is drawn!
+
+## TODO 📝
+1. IMP : Add Word section not working, entered words are used in game.
+1. Install and configure react-tsparticles for background.
+2. Remove the footer and add helpful info section which contains links, credits etc.
+3. Fix the stick figure drawing issue.
+4. Change background color for better visual appeal.
+5. Fix the layout issue where Hangman Drawing goes outside the box at 770px screen width.
+6. Try to implement a dual or tri-color theme for the website, giving it a modern and professional feel.
