@@ -118,6 +118,8 @@ Follow these steps to run the game locally:
 4. For each wrong guess, a part of the stick figure is drawn.
 5. Win by guessing the word before the entire stick figure is drawn!
 
+[Link](https://shah-namra.github.io/Hangman/)
+
 ## TODO 📝
 1. IMP : Add Word section not working, entered words are used in game.
 1. Install and configure react-tsparticles for background.
