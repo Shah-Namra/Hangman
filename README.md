@@ -54,7 +54,18 @@ export default tseslint.config({
 >>>>>>> fb706624f4b39d46f54ad1c7156c032d53ec15e2 -->
 # Hangman Game 🎮
 
-Welcome to the **Hangman** game project! This is a fun, interactive Hangman game that I've developed to test both vocabulary and coding skills. It brings the classic game to life with some modern twists and my personal touch.
+Welcome to the **Hangman** game project! 
+<!--A fun, interactive Hangman game that I've developed to test both vocabulary and coding skills. It brings the classic game to life with some modern twists and my personal touch. -->
+
+This project features a Hangman game developed using TypeScript, React, Tailwind CSS, and a bit of CSS. The game randomly selects a word from `wordList.json`, and your objective is to identify the word before the drawing is fully completed.
+
+Here's how it works:
+
+1. Correctly guessed letters will be acknowledged.
+2. Incorrect guesses will progressively reveal parts of the drawing.
+3. Your goal is to guess the word before the drawing is entirely completed.
+
+Enjoy the game and best of luck!
 
 ---
 
@@ -118,13 +129,13 @@ Follow these steps to run the game locally:
 4. For each wrong guess, a part of the stick figure is drawn.
 5. Win by guessing the word before the entire stick figure is drawn!
 
-[Link](https://shah-namra.github.io/Hangman/)
+[Link](https://hangman-eight-smoky.vercel.app/)
 
 ## TODO 📝
-1. IMP : Add Word section not working, entered words are used in game.
+1. IMP: Add Word section is not working, entered words are used in game.
 1. Install and configure react-tsparticles for background.
-2. Remove the footer and add helpful info section which contains links, credits etc.
+2. Remove the footer and add helpful info section that contains links, credits etc.
 3. Fix the stick figure drawing issue.
-4. Change background color for better visual appeal.
+4. Change bg color for better visual appeal / over all theme
 5. Fix the layout issue where Hangman Drawing goes outside the box at 770px screen width.
 6. Try to implement a dual or tri-color theme for the website, giving it a modern and professional feel.
